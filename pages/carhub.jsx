@@ -25,15 +25,17 @@ const carhub = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
-          <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+          <h2 className='mt-1'>Overview</h2>
+          <p className='mt-5 mb-2'>
+            CarHub is a sleek and professional Next.js web application designed
+            to showcase a diverse range of cars. It provides users with detailed
+            information about each vehicle, including specifications and
+            high-quality images. Additionally, CarHub offers a user-friendly
+            rental feature, allowing users to easily find and rent cars based on
+            their preferred brand, fuel type, or year of manufacture. With its
+            seamless interface and intuitive functionality, CarHub
+            revolutionizes the way users explore, learn about, and reserve cars
+            online.
           </p>
           <a
             href='https://github.com/kundank02/CarHub'

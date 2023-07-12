@@ -25,17 +25,12 @@ const youtube = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
-          <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router DOM&quot;
-            package. This application was built using the Coin Gecko API.
+          <h2 className='mt-1'>Overview</h2>
+          <p className='mt-5 mb-2'>
+            The React.js-based YouTube clone utilizes Rapid API to fetch YouTube
+            videos. This clone provides users with a similar interface and
+            features as the original platform, enabling them to search, view,
+            and interact with a wide range of videos seamlessly.
           </p>
           <a
             href='https://github.com/kundank02/youtube-clone'
@@ -51,7 +46,6 @@ const youtube = () => {
           >
             <button className='px-8 py-2 mt-4'>Demo</button>
           </a>
-
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

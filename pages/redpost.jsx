@@ -25,16 +25,14 @@ const redpost = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
-          <p> 
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+          <h2 className='mt-1'>Overview</h2>
+          <p className='mt-5 mb-2'>
+            The RedPost is a comprehensive full-stack
+            solution that leverages MongoDB, Express.js, React.js, and Node.js
+            technologies. It provides users with robust features, including
+            seamless signup and login processes, post uploading capabilities,
+            post engagement through likes and comments, and real-time messaging
+            functionality. 
           </p>
           <a
             href='https://github.com/kundank02/RedPost-frontend'
@@ -74,7 +72,7 @@ const redpost = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+          <p className='underline cursor-pointer -mt-6'>Back</p>
         </Link>
       </div>
     </div>

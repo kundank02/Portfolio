@@ -17,7 +17,7 @@ const goldsgym = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Twitch UI</h2>
+          <h2 className='py-2'>Golds Gym</h2>
           <h3>React JS / MUI / RapidAPI</h3>
         </div>
       </div>
@@ -25,15 +25,13 @@ const goldsgym = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
-          <p>
-            This appplication was built using NEXT.JS and is styled with
-            Tailwind CSS. The application is hosted statically using Vercel.
-            This is a mobile responsive recreation of Twitch.tv and features
-            Next/Auth.js for authentication. Users may choose to be
-            authenticated with either a Github account or a Google account. A
-            few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context.
+          <h2 className='mt-1'>Overview</h2>
+          <p className='mt-5 mb-2'>
+            GoldsGym is a cutting-edge fitness app built with React.js. It
+            utilizes Rapid API to fetch workout GIFs, providing step-by-step
+            instructions and highlighting their benefits. The app also
+            integrates another API to fetch related YouTube videos, offering
+            users a comprehensive fitness experience.
           </p>
           <a
             href='https://github.com/kundank02/GoldsGym'
