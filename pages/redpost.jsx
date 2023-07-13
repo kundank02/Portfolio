@@ -35,7 +35,7 @@ const redpost = () => {
             functionality. 
           </p>
           <a
-            href='https://github.com/kundank02/RedPost-frontend'
+            href='https://github.com/kundank02/RedPost'
             target='_blank'
             rel='noreferrer'
           >
