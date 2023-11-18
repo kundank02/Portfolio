@@ -23,7 +23,7 @@ const Main = () => {
                 loop: true,
                 delay: 50,
                 deleteSpeed: 50,
-                strings: ["A Front-End Web Developer", "A Software Developer"],
+                strings: ["A Front-End Developer", "A Software Developer"],
               }}
             />
           </h1>
