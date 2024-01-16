@@ -33,7 +33,7 @@ const Main = () => {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
-              href="https://www.linkedin.com/in/kundankumar02/"
+              href="https://www.linkedin.com/in/kundan02/"
               target="_blank"
               rel="noreferrer"
             >
