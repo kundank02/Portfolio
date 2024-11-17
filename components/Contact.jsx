@@ -30,8 +30,7 @@ const Contact = () => {
                 <h2 className='py-2'>Kundan Kumar</h2>
                 <p>Front-End Developer</p>
                 <p className='py-4'>
-                  I am available for internship and full-time positions. Contact
-                  me and let&apos;s talk.
+                  I am available for full-time positions.
                 </p>
               </div>
               <div>
@@ -59,13 +58,11 @@ const Contact = () => {
                   {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div> */}
-                  <Link href='/resume'>
-                    <a>
+                  <a href='Resume.pdf' rel="noopener noreferrer" target='_blank'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
-                  </Link>
                 </div>
               </div>
             </div>

@@ -23,13 +23,12 @@ const Main = () => {
                 loop: true,
                 delay: 50,
                 deleteSpeed: 50,
-                strings: ["A Front-End Developer", "A Software Developer"],
+                strings: ["A Full-Stack Developer", "A Software Developer"],
               }}
             />
           </h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I’m focused on building responsive frontend web applications
-            integrating back-end technologies.
+            I’m focused on building responsive full stack web applications.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
